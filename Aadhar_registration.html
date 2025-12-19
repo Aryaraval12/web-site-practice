@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Aadhar Registration page</title>
+    </head>
+    <body>
+        <form action="submit.php">
+            <table border = "1" weight = "50%" align = "Center" >
+                <caption><h2>Aadhar Registration page </h2></caption>
+                <tr>
+                    <td>Type: </td>
+                    <td><input type="radio" name="r" id="resident">resident
+                    <input type="radio" name="r" id="non - resident">non-resident
+                    <input type="radio" name="r" id="New enrollment">new enrollment</td>
+                </tr>
+                <tr>
+                    <td>F name: </td>
+                    <td><input type="text" name="f nane" id="f name" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td>L name: </td>
+                    <td><input type="text" name="l name" id="l name" placeholder="Last Name"></td>
+                </tr>
+                <tr>
+                    <td>Mobile Number: </td>
+                    <td><input type ="tel" placeholder="Mobile Number"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td><input type="radio" name="g" id="gender">Male
+                    <input type="radio" name="g" id="gendre">Female</td>
+                </tr>
+                <tr>
+                    <td>Email Id: </td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter Email Id"></td>
+                </tr>
+                <tr>
+                    <td>Address: </td>
+                    <td><textarea name="Address" id="Address" placeholder="Address"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Post Office: </td>
+                    <td><input type="text" name="po" id="po" placeholder="Near by Post Office"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth: </td>
+                    <td><input type="date" name="date" id="date" placeholder="DOB"></td>
+                </tr>
+                <tr>
+                    <td>Age: </td>
+                    <td><input type="number" name="age" id="age" placeholder="Age"></td>
+                </tr>
+                <tr>
+                    <td>Graduation: </td>
+                    <td> <label for="Graduation">
+                        <select name="Graduation" id="Graduation">
+                            <option value="12Th Pass">12Th pass</option>
+                            <option value="10Th Pass">10Th Pass</option>
+                            <option value="Degree">Degree</option>
+                            <option value="Master Degree">Master Degree</option>
+                        </select>
+                    </label></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="Center"><button type="submit" value="Submit"> submit </button>
+                    <input type="reset" value="Reset"></td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
