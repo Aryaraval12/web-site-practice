@@ -1,0 +1,182 @@
+   *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #71c5ef;
+        }
+        #header{
+            width: 100%;
+            height: 120px;
+            background-color: #0e415a;
+
+        }
+        #container{
+            width: 100%;
+            height: 580px;
+            background-color: #fff;
+        }
+        #footer{
+            width: 100%;
+            height: 50px;
+
+        }
+        h1{
+            text-align: center;
+            color: #72bbe0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 10px 10px #000;
+        }
+        h2{
+            font-size: 18px;
+            color:#fff;
+            text-align: center;
+            font-family:Calibri;
+            
+        }
+        .imgBake{
+            width: 50px;
+            height: 50px;
+            padding-left: 700px;
+        
+            
+        }
+        .logo{
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        .navbar{
+            width: 10%;
+            float: center;
+            height: 100%;
+            background-color: #366a84;
+        }
+        .contentarea{
+            width: 90%;
+            height: 100%;
+            float: left;
+            background-color: antiquewhite;
+        }
+        .btn{
+            width: 80%;
+            height: 30px;
+            background-color: #fff;
+            color: #0e415a;
+            margin-top:15px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left:10px;
+            padding-top:10px;
+            font-family: calibri;
+            border-radius : 10px;
+        }
+        .btn:hover{
+            border:2px solid #000;
+            background-color: #000;
+            color:#366a84;
+        }
+        .box{
+            width: 200px;
+            height: 250px;
+            border:1px solid #000;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#053249;
+          
+            position: relative;
+        }   *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #71c5ef;
+        }
+        #header{
+            width: 100%;
+            height: 120px;
+            background-color: #0e415a;
+
+        }
+        #container{
+            width: 100%;
+            height: 580px;
+            background-color: #fff;
+        }
+        #footer{
+            width: 100%;
+            height: 50px;
+        }
+        h1{
+            text-align: center;
+            color: #72bbe0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 10px 10px #000;
+        }
+        h2{
+            font-size: 18px;
+            color:#fff;
+            text-align: center;
+            font-family:Calibri;
+            
+        }
+        .imgBake{
+            width: 50px;
+            height: 50px;
+            padding-left: 700px;
+        
+            
+        }
+        .logo{
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        .navbar{
+            width: 10%;
+            float: left;
+            height: 100%;
+            background-color: #366a84;
+        }
+        .contentarea{
+            width: 90%;
+            height: 100%;
+            float: left;
+            background-color: antiquewhite;
+        }
+        .btn{
+            width: 80%;
+            height: 30px;
+            background-color: #fff;
+            color: #0e415a;
+            margin-top:15px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left:10px;
+            padding-top:10px;
+            font-family: calibri;
+            border-radius : 10px;
+        }
+        .btn:hover{
+            border:2px solid #000;
+            background-color: #000;
+            color:#366a84;
+        }
+        .box{
+            width: 200px;
+            height: 250px;
+            border:1px solid #000;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#0e415a;
+          
+            position: relative;
+        }
